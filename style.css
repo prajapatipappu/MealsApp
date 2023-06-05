@@ -1,0 +1,117 @@
+/* for body */
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+/* navbar */
+.nav
+{
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    padding:15px;
+    margin-top:-1 ;
+    border-radius: 5px;
+    display: flex;
+    font-size: 29px;
+    
+    justify-content: space-between;
+}
+/* fav heading */
+#fav  a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/*  seach_box */
+.seach_box
+{
+    padding: 25px;
+    margin-top: 35px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.seach_box h1{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.seach_box h3{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+   /* seach_box input */
+.seach_box input
+{
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 19px;
+    /* width: 550px; */
+    width:45%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.seach_box input:focus
+{
+    outline:none;
+}
+/* container */
+#container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width:90%
+}
+.detail
+{
+    background-color: #ff3044;
+     padding: 10px;
+     margin: 15px;
+
+}
+/* imge img */
+.imge img{
+    /* padding: 2px; */
+    border-radius: 50%;
+    height: 250px;
+    width: 325px;
+    background-position: center;
+
+}
+/* title */
+.title
+{
+    color:whitesmoke;
+    font-size: 25px;
+    text-align: center;
+}
+/* card_body button */
+.card_body button
+{
+    background-color: #ff3044;
+    color: whitesmoke;
+    padding: 10px;
+    border-color: whitesmoke;
+   
+    border-radius: 10px;
+    border: solid;
+    margin :45px;
+}
+/* card_body button  details*/
+.card_body button i{
+    color:whitesmoke;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+   
+}

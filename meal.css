@@ -1,0 +1,86 @@
+/* for body */
+body{
+    background-color:#ce976bdc;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+
+}
+
+/* for navbar */
+.nav{
+    /* background-color: rgba(245, 129, 5, 0.966); */
+    font-size: 20px;
+    color:whitesmoke;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-top: -1;
+}
+
+/* home a */
+#home a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+/* Meal_Details img */
+.Meal_Details img{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 100px;
+    border: 5px ridge black;
+
+}
+ /* Meal_Details span */
+.Meal_Details span{
+    color: whitesmoke;
+    font-size: 25px;
+   
+}
+/* Meal_Details h4 */
+.Meal_Details h4{
+    color: whitesmoke;
+    text-align: center;
+}
+/* Meal_Details h3 */
+.Meal_Details h3{
+    color: whitesmoke;
+    margin-left: 150px;
+    
+}
+
+/* Meal_Details p */
+.Meal_Details p{
+    color: rgb(245, 245, 245);
+    padding-left: 155px;
+    padding-right: 150px;
+    
+}
+/* video */
+.video
+{
+    text-align: center;
+}
+
+/* video button */
+.video button{
+    color: rgba(241, 73, 73, 0.907);
+    text-align: center;
+    border-radius: 9px;
+    border: solid;
+    border-color:whitesmoke;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color:rgb(6, 66, 75); ;
+
+} 

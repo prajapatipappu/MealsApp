@@ -1,0 +1,96 @@
+/* for body */
+body{
+    background-color: rgb(39, 34, 36);
+    margin: 0;
+    height: 100%;
+    width: 100%;
+
+}
+/* navbar */
+.nav{
+    /* background-color: rgb(176, 131, 6); */
+    font-size: 20px;
+    color:whitesmoke;
+    padding: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    width:95%;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-top: -1;
+    
+    
+}
+/* clearList */
+#clear{
+    color: whitesmoke;
+    font-size:30px;
+    text-align: right;
+    cursor: pointer;
+ 
+   
+}
+.fa-beat
+{
+    cursor: pointer;
+    color:white;
+}
+#clear button
+{
+    background-color: rgb(39, 34, 36);
+    border: none;
+    font-size: 42px;
+    /* text-align: left; */
+    
+}
+/* favcontainer box */
+#favcontainer
+{
+    width:90%;
+    margin-left:59px;
+    margin-top: 79px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    top:10px;
+    justify-content: space-between;
+}
+
+/* favdetails */
+.favdetail
+{
+    /* text-align:right; */
+    /* margin: 20px;         */
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 85%;
+    margin-bottom: 15px;
+    border-bottom:5px solid cyan ;
+}
+/*  favdetail img */
+.favdetail img{
+    height: 100px;
+    width: 100px;
+    padding-bottom: 12px;
+    
+}
+/* favdetail  meals name  */
+
+.titles
+{
+    
+    color: whitesmoke;
+}
+/* favdetail button i */
+ .deletemeal button {
+    font-size: 15px;
+    background-color: rgb(39, 34, 36);
+
+    color: red;
+    border: none;
+    /* margin-left: 35%; */
+    cursor: pointer; 
+ }
+
